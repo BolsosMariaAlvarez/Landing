@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>María Álvarez - Landing Page</title>
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="media/_Logo María Álvarez.png">
+    <!-- Fuentes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Adlery+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sección principal con imágenes y textos -->
+    <section class="landing-content">
+        <div class="content-left">
+            <img src="media/logoma.png" alt="Imagen de producto">
+        </div>
+        <div class="content-right">
+            <h2>Disfruta de los nuevos modelos de verano</h2>
+            <p>Deja tu nombre y correo para recibir nuestro catálogo.</p>
+            <form action="procesar_formulario.php" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre completo" required>
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
