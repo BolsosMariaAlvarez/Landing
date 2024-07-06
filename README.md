@@ -1,0 +1,1 @@
+Este repositorio contiene el código fuente de la landing page de María Álvarez. La landing page está diseñada para captar la atención de nuestros clientes potenciales, ofreciendo una primera impresión impactante de nuestros productos de bolsas y accesorios femeninos.
